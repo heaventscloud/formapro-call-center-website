@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - FORMAPRO</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header>
+        <nav>
+            <div class="nav-container">
+                <a href="index.html" class="logo">FORMAPRO</a>
+                <div class="nav-links">
+                    <a href="index.html">Accueil</a>
+                    <a href="about.html">À propos</a>
+                    <a href="services.html">Services</a>
+                    <a href="testimonials.html">Témoignages</a>
+                    <a href="contact.html" class="active">Contact</a>
+                </div>
+                <button class="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            <!-- Mobile Menu -->
+            <div class="mobile-menu">
+                <a href="index.html">Accueil</a>
+                <a href="about.html">À propos</a>
+                <a href="services.html">Services</a>
+                <a href="testimonials.html">Témoignages</a>
+                <a href="contact.html" class="active">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h1>Demandez une Audience</h1>
+                <p class="hero-subtitle">Forgeons ensemble une alliance stratégique pour votre succès</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section">
+            <div class="content-container">
+                <h2>Établissons le Contact</h2>
+                <div class="contact-grid">
+                    <!-- Contact Form -->
+                    <div class="contact-form">
+                        <h3>Envoyez-nous un Message</h3>
+                        <form id="contact-form">
+                            <div class="form-group">
+                                <label for="name">Nom complet *</label>
+                                <input type="text" id="name" name="name" required class="form-input">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" required class="form-input">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Téléphone</label>
+                                <input type="tel" id="phone" name="phone" class="form-input">
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Sujet *</label>
+                                <select id="subject" name="subject" required class="form-input">
+                                    <option value="">Choisissez un sujet</option>
+                                    <option value="service-client">Service Client</option>
+                                    <option value="telemarketing">Télémarketing</option>
+                                    <option value="back-office">Back Office</option>
+                                    <option value="autre">Autre</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message" rows="5" required class="form-input"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Envoyer le Message</button>
+                        </form>
+                    </div>
+
+                    <!-- Contact Information -->
+                    <div class="contact-info">
+                        <h3>Nos Coordonnées</h3>
+                        <div class="info-group">
+                            <h4>Adresse</h4>
+                            <p>Agadir, Maroc</p>
+                        </div>
+                        <div class="info-group">
+                            <h4>Email</h4>
+                            <p>contact@formapro.ma</p>
+                        </div>
+                        <div class="info-group">
+                            <h4>Téléphone</h4>
+                            <p>+212 5XX-XXXXXX</p>
+                        </div>
+                        <div class="info-group">
+                            <h4>Heures d'Audience</h4>
+                            <ul>
+                                <li>Lundi - Vendredi: 9h00 - 18h00</li>
+                                <li>Samedi: 9h00 - 13h00</li>
+                                <li>Dimanche: Fermé</li>
+                            </ul>
+                        </div>
+                        <!-- Map -->
+                        <div class="map-container">
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54862.89037660691!2d-9.598201299999999!3d30.427755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdb3b6e9daad1cc9%3A0x26652bf2ad097c45!2sAgadir%2080000%2C%20Morocco!5e0!3m2!1sen!2sus!4v1635444055000!5m2!1sen!2sus"
+                                width="100%" 
+                                height="300" 
+                                style="border:0;" 
+                                allowfullscreen="" 
+                                loading="lazy">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>FORMAPRO</h3>
+                <p>Centre d'appel professionnel basé à Agadir, votre allié dans la conquête des marchés internationaux.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Navigation</h3>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="about.html">À propos</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="testimonials.html">Témoignages</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <ul>
+                    <li>Email: contact@formapro.ma</li>
+                    <li>Tél: +212 5XX-XXXXXX</li>
+                    <li>Agadir, Maroc</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Heures d'Audience</h3>
+                <ul>
+                    <li>Lun-Ven: 9h00 - 18h00</li>
+                    <li>Sam: 9h00 - 13h00</li>
+                    <li>Dim: Fermé</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 FORMAPRO. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const menuToggle = document.querySelector('.mobile-menu-toggle');
+        const mobileMenu = document.querySelector('.mobile-menu');
+
+        menuToggle.addEventListener('click', () => {
+            mobileMenu.classList.toggle('active');
+            menuToggle.classList.toggle('active');
+        });
+
+        // Close mobile menu when clicking a link
+        const mobileLinks = mobileMenu.querySelectorAll('a');
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.remove('active');
+                menuToggle.classList.remove('active');
+            });
+        });
+
+        // Form submission
+        const form = document.getElementById('contact-form');
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            alert('Merci pour votre message. Nous vous contacterons bientôt.');
+            form.reset();
+        });
+    </script>
+</body>
+</html>
